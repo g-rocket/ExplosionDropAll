@@ -8,8 +8,8 @@
 
   <repositories>
     <repository>
-        <id>project-contained-repo</id>
-        <url>file://${basedir}/lib</url>
+      <id>bukkit-repo</id>
+      <url>http://repo.bukkit.org/content/groups/public/</url>
     </repository>
   </repositories>
 
@@ -31,7 +31,7 @@
     <dependency>
       <groupId>org.bukkit</groupId>
       <artifactId>Bukkit</artifactId>
-      <version>1.7.9-0.1</version>
+      <version>1.7.9-R0.1</version>
     </dependency>
   </dependencies>
 </project>
