@@ -1,4 +1,4 @@
-package net.clonecomputers.lab.signedit;
+package net.clonecomputers.lab.explosions;
 
 import org.bukkit.event.*;
 import org.bukkit.event.entity.*;
