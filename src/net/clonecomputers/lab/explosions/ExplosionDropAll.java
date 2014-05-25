@@ -9,8 +9,8 @@ public class ExplosionDropAll extends JavaPlugin {
 	private final ExplodeListener explodeListener = new ExplodeListener();
 	
 	public void onDisable() {
-		getLogger().info("ExplosionDropAll 0.1 Disabled");
 		EntityExplodeEvent.getHandlerList().unregister(explodeListener);
+		getLogger().info("ExplosionDropAll 0.1 Disabled");
 	}
 
 	public void onEnable() {
