@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.clonecomputers.lab</groupId>
   <artifactId>ExplosionDropAll</artifactId>
-  <version>0.1</version>
+  <version>1.0</version>
   <description>A bukkit plugin that makes explosions have a 100% chance of dropping all blocks they break</description>
 
   <repositories>
@@ -26,6 +26,14 @@
         </configuration>
       </plugin>
     </plugins>
+    <resources>
+      <resource>
+       <directory></directory>
+       <includes>
+        <include>plugin.yml</include>
+       </includes>
+      </resource>
+    </resources>
   </build>
   <dependencies>
     <dependency>
